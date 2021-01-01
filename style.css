@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'recipe';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'spotlight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/Y_Spotlight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: url("https://i.ibb.co/RbdYdyJ/001.png");
+    background-size: cover;
+}
+button {
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 50px;
+    height: 80px;
+    width: 68%;
+    font-size: 300%;
+    background-color: lightblue;
+}
+input {
+    border: none;
+    border-bottom: 1px solid #999;
+    color: aqua;
+    background-color: initial;
+    outline: none;
+    padding: 30px 20px 20px;
+    font-family: spotlight;
+}
+p {
+    font-family: recipe;
+    padding: 15px;
+    color: ivory;
+}
+a {
+    font-family: spotlight;
+    font-style: none;
+}
